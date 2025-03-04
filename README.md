@@ -2,4 +2,4 @@
 Python procedures to download UK Air Quality Data. A port of many of the [open air project](https://github.com/openair-project/openair) importUKAQ routines from R to python. All the heavy lifting done by the open air team.
 The functions return pandas data frames containing the results of the downloads.  The original files are held as R data files but conversion handled by the [rdata](https://github.com/vnmabus/rdata) package. 
 
-See the example Notebook, jupyter notebook for usage examples and the  [Docs]for more details
+See the example Notebook, jupyter notebook for usage examples and the  [Docs](https://stuartlw.github.io/Air_Quality_Data/)for more details
