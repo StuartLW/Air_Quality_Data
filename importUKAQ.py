@@ -260,7 +260,8 @@ def importUKAQ(site,
         out_df.drop(cols_to_drop, axis=1, inplace = True)
     if to_narrow:
         out_df = out_df.melt(id_vars=['site','code','date'])
-
+    # clean up
+    del results
        
     return out_df
 
